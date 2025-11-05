@@ -24,6 +24,13 @@ public class LoginEmployee {
         driver.findElement(By.id("email")).sendKeys("evervc.dev@gmail.com");
         driver.findElement(By.id("password")).sendKeys("Horno#32");
         driver.findElement(By.xpath("//input[@value='Iniciar Sesión']")).click();
+        
+        //Espera 1 para que cargue la página después de iniciar sesión (por el tiempo de respuesta del servidor)
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         //Accede al H2 que dice: Panel de Empleado, lo que significa que si ha accedido
         WebElement panelEmpleado = driver.findElement(By.xpath("//h2[contains(text(),'Panel del Empleado')]"));
