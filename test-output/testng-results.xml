@@ -1,53 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-05T19:46:54 CST" name="Default suite" finished-at="2025-11-05T19:47:13 CST" duration-ms="18998">
+  <suite started-at="2025-11-06T07:39:21 CST" name="Default suite" finished-at="2025-11-06T07:40:04 CST" duration-ms="42852">
     <groups>
     </groups>
-    <test started-at="2025-11-05T19:46:54 CST" name="Default test" finished-at="2025-11-05T19:47:13 CST" duration-ms="18998">
-      <class name="users_management.UsersManagement">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:users_management.UsersManagement@7eac9008]" started-at="2025-11-05T19:46:54 CST" name="setUp" finished-at="2025-11-05T19:46:56 CST" duration-ms="1841" status="PASS">
+    <test started-at="2025-11-06T07:39:21 CST" name="Default test" finished-at="2025-11-06T07:40:04 CST" duration-ms="42852">
+      <class name="role_permissions_management.RolePermissionManagement">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:role_permissions_management.RolePermissionManagement@3857f613]" started-at="2025-11-06T07:39:21 CST" name="setUp" finished-at="2025-11-06T07:39:23 CST" duration-ms="1783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="adminLogin()[pri:1, instance:users_management.UsersManagement@7eac9008]" started-at="2025-11-05T19:46:56 CST" name="adminLogin" finished-at="2025-11-05T19:46:57 CST" duration-ms="1193" status="PASS">
+        <test-method signature="adminLogin()[pri:1, instance:role_permissions_management.RolePermissionManagement@3857f613]" started-at="2025-11-06T07:39:23 CST" name="adminLogin" finished-at="2025-11-06T07:39:25 CST" duration-ms="1904" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- adminLogin -->
-        <test-method signature="usersView()[pri:2, instance:users_management.UsersManagement@7eac9008]" started-at="2025-11-05T19:46:57 CST" name="usersView" finished-at="2025-11-05T19:46:59 CST" duration-ms="1391" status="PASS">
+        <test-method signature="rolePermissionsView()[pri:2, instance:role_permissions_management.RolePermissionManagement@3857f613]" started-at="2025-11-06T07:39:25 CST" name="rolePermissionsView" finished-at="2025-11-06T07:39:28 CST" duration-ms="3504" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- usersView -->
-        <test-method signature="createUser()[pri:3, instance:users_management.UsersManagement@7eac9008]" started-at="2025-11-05T19:46:59 CST" name="createUser" finished-at="2025-11-05T19:47:01 CST" duration-ms="2634" status="PASS">
+        </test-method> <!-- rolePermissionsView -->
+        <test-method signature="clickNewRole()[pri:3, instance:role_permissions_management.RolePermissionManagement@3857f613]" started-at="2025-11-06T07:39:28 CST" name="clickNewRole" finished-at="2025-11-06T07:39:29 CST" duration-ms="1454" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUser -->
-        <test-method signature="logoutUser()[pri:4, instance:users_management.UsersManagement@7eac9008]" started-at="2025-11-05T19:47:01 CST" name="logoutUser" finished-at="2025-11-05T19:47:03 CST" duration-ms="1369" status="PASS">
+        </test-method> <!-- clickNewRole -->
+        <test-method signature="fillRoleName()[pri:4, instance:role_permissions_management.RolePermissionManagement@3857f613]" started-at="2025-11-06T07:39:29 CST" name="fillRoleName" finished-at="2025-11-06T07:39:31 CST" duration-ms="1061" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoutUser -->
-        <test-method signature="loginCreatedUser()[pri:5, instance:users_management.UsersManagement@7eac9008]" started-at="2025-11-05T19:47:03 CST" name="loginCreatedUser" finished-at="2025-11-05T19:47:04 CST" duration-ms="1150" status="PASS">
+        </test-method> <!-- fillRoleName -->
+        <test-method signature="addDirectPermissions()[pri:5, instance:role_permissions_management.RolePermissionManagement@3857f613]" started-at="2025-11-06T07:39:31 CST" name="addDirectPermissions" finished-at="2025-11-06T07:39:35 CST" duration-ms="4205" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginCreatedUser -->
-        <test-method signature="logoutCreatedUser()[pri:6, instance:users_management.UsersManagement@7eac9008]" started-at="2025-11-05T19:47:04 CST" name="logoutCreatedUser" finished-at="2025-11-05T19:47:09 CST" duration-ms="4746" status="PASS">
+        </test-method> <!-- addDirectPermissions -->
+        <test-method signature="addPermissionsBySearch()[pri:6, instance:role_permissions_management.RolePermissionManagement@3857f613]" started-at="2025-11-06T07:39:35 CST" name="addPermissionsBySearch" finished-at="2025-11-06T07:39:39 CST" duration-ms="4261" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoutCreatedUser -->
-        <test-method signature="updateUser()[pri:7, instance:users_management.UsersManagement@7eac9008]" started-at="2025-11-05T19:47:09 CST" name="updateUser" finished-at="2025-11-05T19:47:11 CST" duration-ms="2288" status="PASS">
+        </test-method> <!-- addPermissionsBySearch -->
+        <test-method signature="removePermission()[pri:7, instance:role_permissions_management.RolePermissionManagement@3857f613]" started-at="2025-11-06T07:39:39 CST" name="removePermission" finished-at="2025-11-06T07:39:41 CST" duration-ms="2081" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updateUser -->
-        <test-method signature="deactivateUser()[pri:8, instance:users_management.UsersManagement@7eac9008]" started-at="2025-11-05T19:47:11 CST" name="deactivateUser" finished-at="2025-11-05T19:47:13 CST" duration-ms="2207" status="PASS">
+        </test-method> <!-- removePermission -->
+        <test-method signature="saveRole()[pri:8, instance:role_permissions_management.RolePermissionManagement@3857f613]" started-at="2025-11-06T07:39:41 CST" name="saveRole" finished-at="2025-11-06T07:39:44 CST" duration-ms="3082" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deactivateUser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:users_management.UsersManagement@7eac9008]" started-at="2025-11-05T19:47:13 CST" name="tearDown" finished-at="2025-11-05T19:47:13 CST" duration-ms="158" status="PASS">
+        </test-method> <!-- saveRole -->
+        <test-method signature="editRole()[pri:9, instance:role_permissions_management.RolePermissionManagement@3857f613]" started-at="2025-11-06T07:39:44 CST" name="editRole" finished-at="2025-11-06T07:39:45 CST" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editRole -->
+        <test-method signature="createNewPermission()[pri:10, instance:role_permissions_management.RolePermissionManagement@3857f613]" started-at="2025-11-06T07:39:45 CST" name="createNewPermission" finished-at="2025-11-06T07:39:46 CST" duration-ms="1096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewPermission -->
+        <test-method signature="editNewPermission()[pri:11, instance:role_permissions_management.RolePermissionManagement@3857f613]" started-at="2025-11-06T07:39:46 CST" name="editNewPermission" finished-at="2025-11-06T07:39:50 CST" duration-ms="3613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editNewPermission -->
+        <test-method signature="deleteNewPermission()[pri:12, instance:role_permissions_management.RolePermissionManagement@3857f613]" started-at="2025-11-06T07:39:50 CST" name="deleteNewPermission" finished-at="2025-11-06T07:39:53 CST" duration-ms="3170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteNewPermission -->
+        <test-method signature="verifyPermissionDeleted()[pri:13, instance:role_permissions_management.RolePermissionManagement@3857f613]" started-at="2025-11-06T07:39:53 CST" name="verifyPermissionDeleted" finished-at="2025-11-06T07:39:54 CST" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPermissionDeleted -->
+        <test-method signature="updateRoleName()[pri:14, instance:role_permissions_management.RolePermissionManagement@3857f613]" started-at="2025-11-06T07:39:54 CST" name="updateRoleName" finished-at="2025-11-06T07:39:55 CST" duration-ms="1089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateRoleName -->
+        <test-method signature="saveUpdatedRole()[pri:15, instance:role_permissions_management.RolePermissionManagement@3857f613]" started-at="2025-11-06T07:39:55 CST" name="saveUpdatedRole" finished-at="2025-11-06T07:39:59 CST" duration-ms="4109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveUpdatedRole -->
+        <test-method signature="deleteRole()[pri:16, instance:role_permissions_management.RolePermissionManagement@3857f613]" started-at="2025-11-06T07:39:59 CST" name="deleteRole" finished-at="2025-11-06T07:40:03 CST" duration-ms="4090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRole -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:role_permissions_management.RolePermissionManagement@3857f613]" started-at="2025-11-06T07:40:03 CST" name="tearDown" finished-at="2025-11-06T07:40:04 CST" duration-ms="157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- users_management.UsersManagement -->
+      </class> <!-- role_permissions_management.RolePermissionManagement -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

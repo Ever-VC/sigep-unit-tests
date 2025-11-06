@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="users_management.UsersManagement">
+      <class name="role_permissions_management.RolePermissionManagement">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="createUser"/>
+          <include name="deleteRole"/>
         </methods>
-      </class> <!-- users_management.UsersManagement -->
+      </class> <!-- role_permissions_management.RolePermissionManagement -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
