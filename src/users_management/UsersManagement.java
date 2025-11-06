@@ -86,9 +86,9 @@ public class UsersManagement {
     public void usersView() {
         navigateTo("/users");
         
-        WebElement panelEmpleado = driver.findElement(By.xpath("//h1[contains(text(),'Lista de Usuarios')]"));
-        Assert.assertNotNull(panelEmpleado);
-        System.out.println("Se encontró el panel de empleado: " + panelEmpleado.getText());
+        WebElement panelUsuarios = driver.findElement(By.xpath("//h1[contains(text(),'Lista de Usuarios')]"));
+        Assert.assertNotNull(panelUsuarios);
+        System.out.println("Se encontró el panel de usuarios: " + panelUsuarios.getText());
     }
     
     @Test(priority = 3)
